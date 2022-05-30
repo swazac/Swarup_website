@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/swarup_website/precache-manifest.aa4a11726caa87612e51d9c54a639dbf.js"
+  "/swarup_website/precache-manifest.cbf01bc565ea146fa37b025d8f060f80.js"
 );
 
 workbox.clientsClaim();
