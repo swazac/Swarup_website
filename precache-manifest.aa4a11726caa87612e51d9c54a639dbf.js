@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dc4fe71395096ae190b0",
-    "url": "/swarup_website/static/css/main.d1ddd16c.chunk.css"
+    "revision": "17fd6f5d809f85ecc7ee",
+    "url": "/swarup_website/static/css/main.504b2e74.chunk.css"
   },
   {
-    "revision": "dc4fe71395096ae190b0",
-    "url": "/swarup_website/static/js/main.dc4fe713.chunk.js"
+    "revision": "17fd6f5d809f85ecc7ee",
+    "url": "/swarup_website/static/js/main.17fd6f5d.chunk.js"
   },
   {
     "revision": "34bf9e473db27d30eff1",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/swarup_website/static/media/portfolio3.fb63a01f.jpg"
   },
   {
-    "revision": "61d46f9217c5b5ad127ca7378e395d3e",
+    "revision": "ed7d9019f671272cd47eb03170e97a44",
     "url": "/swarup_website/index.html"
   }
 ];

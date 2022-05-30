@@ -1,7 +1,7 @@
 {
-  "main.css": "/swarup_website/static/css/main.d1ddd16c.chunk.css",
-  "main.js": "/swarup_website/static/js/main.dc4fe713.chunk.js",
-  "main.js.map": "/swarup_website/static/js/main.dc4fe713.chunk.js.map",
+  "main.css": "/swarup_website/static/css/main.504b2e74.chunk.css",
+  "main.js": "/swarup_website/static/js/main.17fd6f5d.chunk.js",
+  "main.js.map": "/swarup_website/static/js/main.17fd6f5d.chunk.js.map",
   "static/js/1.34bf9e47.chunk.js": "/swarup_website/static/js/1.34bf9e47.chunk.js",
   "static/js/1.34bf9e47.chunk.js.map": "/swarup_website/static/js/1.34bf9e47.chunk.js.map",
   "runtime~main.js": "/swarup_website/static/js/runtime~main.be3e5307.js",
@@ -11,8 +11,8 @@
   "static/media/portfolio1.jpg": "/swarup_website/static/media/portfolio1.181d9486.jpg",
   "static/media/portfolio2.jpg": "/swarup_website/static/media/portfolio2.1164e9f9.jpg",
   "static/media/portfolio3.jpg": "/swarup_website/static/media/portfolio3.fb63a01f.jpg",
-  "static/css/main.d1ddd16c.chunk.css.map": "/swarup_website/static/css/main.d1ddd16c.chunk.css.map",
+  "static/css/main.504b2e74.chunk.css.map": "/swarup_website/static/css/main.504b2e74.chunk.css.map",
   "index.html": "/swarup_website/index.html",
-  "precache-manifest.eee70459d827d2c1bed066e02e904913.js": "/swarup_website/precache-manifest.eee70459d827d2c1bed066e02e904913.js",
+  "precache-manifest.aa4a11726caa87612e51d9c54a639dbf.js": "/swarup_website/precache-manifest.aa4a11726caa87612e51d9c54a639dbf.js",
   "service-worker.js": "/swarup_website/service-worker.js"
 }
