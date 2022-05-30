@@ -8,8 +8,8 @@ const Experience = () => {
       <h3> What skills I have</h3>
       <h2>My experience</h2>
 
-      <div className="container experience__container">
-        <div className="experience__frontend">
+      <div className="experience__container">
+        <div>
           <h3>Frontend Development</h3>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
@@ -43,7 +43,7 @@ const Experience = () => {
           </article>
         </div>
 
-        <div className="experience__backend">
+        <div>
           <h3>Backend Development</h3>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />

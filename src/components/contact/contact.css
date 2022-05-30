@@ -21,7 +21,7 @@ h2 {
 }
 
 .contact_option {
-    margin: 2rem;
+    margin: 0.25rem;
     padding: 5rem 3.5rem;
     background-color: var(--color-bg-variant);
     border-radius: 2rem;
@@ -60,17 +60,8 @@ h2 {
     color: var(--color-light);
 }
 
-@media only screen and (max-width: 1025px) and (min-width: 601px) 
-{
-     .contact__container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
-
-
-@media only screen and (max-width: 600px) and (min-width: 1px) {
-    .contact__container {
-        width: var(----container-width-ms);
+@media only screen and (max-width: 600px) {
+    .contact__options {
+        flex-direction: column;
     }
 }

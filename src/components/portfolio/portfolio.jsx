@@ -10,8 +10,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Achieve",
-    github: "https://github.com",
-    demo: "https://www.google.com/",
+    github: "https://github.com/swazac/Achieve",
+    demo: "https://swazac.github.io/Achieve",
   },
   {
     id: 2,
@@ -29,17 +29,13 @@ const data = [
   },
 ];
 
-
-
-
 const portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>My recent work</h2>
-
-      <div className="container portfolio__container">
-        {
-          data.map(({id, image, title, github, demo}) => {
+      <div className='container'>
+        <h2>My recent work</h2>
+        <div className="portfolio__container">
+          {data.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -66,8 +62,8 @@ const portfolio = () => {
                 </div>
               </article>
             );
-          })
-        }
+          })}
+        </div>
       </div>
     </section>
   );

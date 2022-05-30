@@ -17,7 +17,6 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    float: left;
 }
 
 .about__me-image:hover {
@@ -66,16 +65,15 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-    .about__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-}
+@media only screen and (max-width: 600px) {
 
-@media screen and (max-width: 600px) {
-    .about__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+    .about__me-image {
+        display: none;
+    }
+    .about__container{
+        gap:0;
+    }
+    .about__cards {
+        grid-template-columns: repeat(1, 80%);
     }
 }
