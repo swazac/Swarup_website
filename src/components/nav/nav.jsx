@@ -1,7 +1,6 @@
 import React from 'react'
 import './nav.css'
 import {ImHome} from 'react-icons/im'
-import {FaUserTie} from "react-icons/fa"
 import {GoBook} from "react-icons/go";
 import {GiClockwork} from "react-icons/gi";
 import {IoMdContacts} from "react-icons/io";
@@ -17,13 +16,6 @@ const Nav = () => {
           className={activeNav === "#header" ? "active" : ""}
         >
           <ImHome />
-        </a>
-        <a
-          href="#about"
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
-        >
-          <FaUserTie />
         </a>
         <a
           href="#experience"

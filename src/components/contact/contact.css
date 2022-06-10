@@ -1,30 +1,30 @@
-h3{
-    padding: 10px 0 0 0;
-}
 
 h2 {
-    padding: 10px;
-}
-.contact__container {
-    padding: 100px 0;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: xx-large;
 }
 
-.contact__options {
-    display: flex;
-    flex-direction: row;
+h3 {
+    padding: 2rem 0 0 0;
+    font-size: larger;
     text-align: center;
-    gap: 0.5rem;
-    transition: var(--transition);
+}
+
+.contact__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5rem;
+    gap: 35px;
+    justify-content: center;
 }
 
 .contact_option {
-    margin: 0.25rem;
-    padding: 5rem 3.5rem;
-    background-color: var(--color-bg-variant);
+    background: var(--color-bg-variant);
+    padding: 5rem;
     border-radius: 2rem;
+    text-align: center;
+    transition: var(--transition);
 
 }
 
@@ -34,8 +34,11 @@ h2 {
 }
 
 .contact__option-icon {
-    font-size: 2rem;
-    margin-bottom: 0.1rem;
+    font-size: 3rem;
+}
+
+a {
+    color: white;
 }
 
 .gmail {
@@ -43,25 +46,15 @@ h2 {
 }
 
 .fb {
-    color:#4267B2;
+    color:#06276a;
 }
 
 .whatsapp {
     color: #25D366;
 }
 
-.contact__option a {
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1rem;
-}
-
-.contact__option h3 {
-    color: var(--color-light);
-}
-
 @media only screen and (max-width: 600px) {
-    .contact__options {
-        flex-direction: column;
+    .contact__container {
+        grid-template-columns: auto;
     }
 }

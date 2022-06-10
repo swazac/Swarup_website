@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../images/portfolio1.jpg'
 import IMG2 from "../../images/portfolio2.jpg";
 import IMG3 from "../../images/portfolio3.jpg";
+import IMG4 from "../../images/portfolio4.jpg";
 
 
 const data = [
@@ -26,6 +27,13 @@ const data = [
     title: "Drum Kit",
     github: "https://github.com/swazac/drum_kit",
     demo: "https://swazac.github.io/drum_kit/",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Kanban Board",
+    github: "https://github.com/swazac/Kanban_board",
+    demo: "https://swazac.github.io/Kanban_board",
   },
 ];
 

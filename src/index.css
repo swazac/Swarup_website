@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
 }
 
 :root {
@@ -18,10 +14,6 @@
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 500ms ease; 
-
-    --container-width-lg: 80%;
-    --container-width-md: 85%;
-    --container-width-ms: 90%;
 }
 
 html {
@@ -34,54 +26,48 @@ html {
 
 body {
 font-family: 'Nunito', sans-serif;
-background: var(--color-bg);
 color: var(--color-white);
-line-height: 2.0;
+background: #000 url(./images/stars.png) repeat top center;
+z-index: 0;
 }
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -1000px 2500px;
+    }
+}
+
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 10000px;
+    }
+}
+
+/* .twinkling {
+    background: transparent url(./images/twinkling.png) repeat center;
+    z-index: 1;
+    animation: move-twink-back 150s linear infinite;
+} */
+
+.clouds {
+    background: transparent url(./images/clouds.png) repeat top center;
+    z-index: 2;
+    animation: move-clouds-back 400s linear alternate-reverse;
+}
+
 
 /*======GENERAL STYLES=======*/
 
-.container{
-    width: var(--container-width-lg);
-    margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-}
-
-h1 {
-    font-size: 3rem;
-    margin: 25px;
-}
-
-section {
-    margin-top: 8rem;
-    height: 100vh;
-
-}
-
-section > h2, section > h3 {
-    text-align: center;
-    color: var(--color-light);
-}
-
-section > h2 {
-    color: var(--color-primary);
-    margin-bottom: 3rem;
-}
-
-.text-light {
-    color: var(--color-light);
-}
-
-a {
-    color: var(--color-primary);
-    transition: var(--transition);
-}
-
-a:hover {
-    color: var(--color-white);
 }
 
 .btn {
@@ -112,26 +98,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    border-radius: 2rem;
 }
 
 /*======Media queries (Medium devices)=======*/
-
-@media only screen and (max-width: 1025px) and (min-width: 601px) {
-    .container {
-        width: var(--container-width-md);
-    }
-    section {
-        margin-top: 6rem;
-    }
-
-}
-
-@media only screen and (max-width: 600px) and (min-width: 1px) {
-    .container {
-        width: var(--container-width-ms);
-    }
-    section > h2 {
-        margin-bottom: 2rem;
-    }
-
-}
