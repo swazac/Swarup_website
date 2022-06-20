@@ -10,18 +10,17 @@ h3 {
 }
 
 .experience__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 35px;
+    justify-content: center;
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 3rem 5rem;
+    padding: 1rem;
     border-radius: 2rem;
+    text-align: center;
     transition: var(--transition);
 }   
 
@@ -44,11 +43,13 @@ h3 {
 
 .experience__details-icon {
     margin-top: 2px;
-    color: var(--color-primary);
+    color: white;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 600px) {
     .experience__container {
-        margin: 20px;
+        grid-template-columns: auto;
+        padding: 1rem;
     }
 }

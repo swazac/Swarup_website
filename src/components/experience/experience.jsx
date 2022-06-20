@@ -41,7 +41,7 @@ const Experience = () => {
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
-            <h4>EJS</h4>
+            <h4>Firebase</h4>
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
@@ -49,7 +49,7 @@ const Experience = () => {
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
-            <h4>MongoDB</h4>
+            <h4>GIT</h4>
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />

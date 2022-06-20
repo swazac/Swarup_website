@@ -7,37 +7,33 @@ import {IoMdContacts} from "react-icons/io";
 import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#header')
+  const [activeNav, setActiveNav] = useState(null);
   return (
     <nav>
-        <a
-          href="#header"
-          onClick={() => setActiveNav("#header")}
-          className={activeNav === "#header" ? "active" : ""}
-        >
-          <ImHome />
-        </a>
-        <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
-        >
-          <GoBook />
-        </a>
-        <a
-          href="#portfolio"
-          onClick={() => setActiveNav("#portfolio")}
-          className={activeNav === "#portfolio" ? "active" : ""}
-        >
-          <GiClockwork />
-        </a>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
-        >
-          <IoMdContacts />
-        </a>
+      <a
+        href="#header"
+        onClick={() => setActiveNav("#header")}
+      >
+        <ImHome />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+      >
+        <GoBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+      >
+        <GiClockwork />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+      >
+        <IoMdContacts />
+      </a>
     </nav>
   );
 }

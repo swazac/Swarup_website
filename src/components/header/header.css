@@ -1,23 +1,30 @@
 header {
-    margin: 0;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% ;
+
 }
 
 .header__container {
     height: 100%;
     width: 100%;
-    padding-top: 150px;
     text-align: center;
-    position: relative;
-    top: 20%;
 }
 
-.cta {
-    margin-top: 10rem;
-    padding: 5px;
-    display: block;
-    gap: 1 rem;
-    justify-content:center;
+.about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0 15rem;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 
@@ -37,7 +44,22 @@ header {
         height: 100vh;
     }
 
+    .header__container {
+        padding-top: 50px;
+    }
+
+    .about_me {
+        padding: 1rem;
+    }
+
     .header__socials {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    
+    .about_me {
+        padding: 0 10rem;
     }
 }

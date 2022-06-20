@@ -1,12 +1,10 @@
 
 h2 {
     text-align: center;
-    padding-top: 2rem;
     font-size: xx-large;
 }
 
 h3 {
-    padding: 2rem 0 0 0;
     font-size: larger;
     text-align: center;
 }
@@ -14,14 +12,14 @@ h3 {
 .contact__container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 5rem;
+    padding: 2rem 5rem;
     gap: 35px;
     justify-content: center;
 }
 
 .contact_option {
     background: var(--color-bg-variant);
-    padding: 5rem;
+    padding: 2rem 5rem;
     border-radius: 2rem;
     text-align: center;
     transition: var(--transition);
