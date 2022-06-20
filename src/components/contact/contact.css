@@ -12,7 +12,7 @@ h3 {
 .contact__container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 2rem 5rem;
+    padding: 2rem 5rem 10rem 5rem;
     gap: 35px;
     justify-content: center;
 }
@@ -54,5 +54,6 @@ a {
 @media only screen and (max-width: 600px) {
     .contact__container {
         grid-template-columns: auto;
+        padding: 2rem 5rem;
     }
 }

@@ -2,8 +2,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% ;
-
+    padding: 5%;
+    margin: 5rem 1rem 4rem 1rem;
 }
 
 .header__container {
@@ -16,15 +16,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 0 15rem;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem 14rem;
 }
 
 .CTA {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 7rem;
 }
 
 
@@ -35,13 +35,14 @@ header {
     align-items: center;
     gap: 1rem;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 47%;
+    left: 15%;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 1px) {
     header {
         height: 100vh;
+        margin: 0;
     }
 
     .header__container {
@@ -49,11 +50,16 @@ header {
     }
 
     .about_me {
-        padding: 1rem;
+        padding: 0rem;
+        margin: 0;
     }
 
     .header__socials {
         display: none;
+    }
+
+    .CTA {
+        padding-top: 20px;
     }
 }
 

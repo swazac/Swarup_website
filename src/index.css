@@ -31,6 +31,17 @@ background: #000 url(./images/stars.png) repeat top center;
 z-index: 0;
 }
 
+h2 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: xx-large;
+}
+
+h3 {
+    padding: 2rem 0 0 0;
+    font-size: larger;
+}
+
 @keyframes move-twink-back {
     from {
         background-position: 0 0;
@@ -60,7 +71,7 @@ z-index: 0;
 .clouds {
     background: transparent url(./images/clouds.png) repeat top center;
     z-index: 2;
-    /* animation: move-clouds-back 400s linear alternate-reverse; */
+    animation: move-clouds-back 400s linear alternate-reverse;
 }
 
 
