@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5075fc6e5153eaa9ee2a",
-    "url": "/swarup_website/static/css/main.eb0d8cb2.chunk.css"
+    "revision": "7add75668a7f19294977",
+    "url": "/swarup_website/static/css/main.5ed4ef81.chunk.css"
   },
   {
-    "revision": "5075fc6e5153eaa9ee2a",
-    "url": "/swarup_website/static/js/main.5075fc6e.chunk.js"
+    "revision": "7add75668a7f19294977",
+    "url": "/swarup_website/static/js/main.7add7566.chunk.js"
   },
   {
     "revision": "20d33529c96821dfa3c3",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/swarup_website/static/js/runtime~main.be3e5307.js"
   },
   {
-    "revision": "e175cb6f26c3977089da45bb03082d9a",
-    "url": "/swarup_website/static/media/CV.e175cb6f.pdf"
+    "revision": "df38894f05573b2808d5287fc4dbe72f",
+    "url": "/swarup_website/static/media/CV.df38894f.pdf"
   },
   {
     "revision": "181d94865dcc0c68795cc03dc63d7f62",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/swarup_website/static/media/clouds.98616c6b.png"
   },
   {
-    "revision": "8e054618f9d31d81feed38f848a60768",
+    "revision": "a510545a8a1daa025acfca37c4c262cc",
     "url": "/swarup_website/index.html"
   }
 ];
